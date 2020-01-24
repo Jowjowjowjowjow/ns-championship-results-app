@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "669286448539",
+    "firebase_url": "https://nschampionshipresultapp.firebaseio.com",
+    "project_id": "nschampionshipresultapp",
+    "storage_bucket": "nschampionshipresultapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669286448539:android:5468696090b53e8a37753e",
+        "android_client_info": {
+          "package_name": "com.example.nschampionshipresultsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669286448539-ght1j78arqh6rttiv29tslr97clqsbc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtThBZK7VsiS8Hxq0r0ak6HTYiRtJlS3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669286448539-ght1j78arqh6rttiv29tslr97clqsbc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

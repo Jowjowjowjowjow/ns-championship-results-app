@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">nsChampionshipResultsApp</string>
+    <string name="loginText">Login:</string>
+    <string name="passwordText">Senha:</string>
+    <string name="loginButtonText">Login</string>
+    <string name="train_icon_description">Train icon</string>
+    <string name="register">Cadastre-se</string>
+    <string name="helloWorld">Olá, mundo!</string>
+    <string name="create_account">Criar conta</string>
+    <string name="logout">Logout</string>
+</resources>
