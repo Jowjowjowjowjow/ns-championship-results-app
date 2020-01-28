@@ -8,4 +8,10 @@
     <string name="helloWorld">Olá, mundo!</string>
     <string name="create_account">Criar conta</string>
     <string name="logout">Logout</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+    <string name="player_name">Nome do jogador</string>
+    <string name="add_player">Adicionar Jogador</string>
+    <string name="generate_matches">Gerar partidas</string>
+
 </resources>
