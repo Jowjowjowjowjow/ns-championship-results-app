@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewMatchNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/match_with_number"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMatchNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Jogador 1" />
+
+    <TextView
+        android:id="@+id/textViewPlayerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewMatchNumber"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Jogador 2" />
+
+    <TextView
+        android:id="@+id/textViewPlayerOneTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPlayerOne"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlayerOne"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerOne"
+        tools:text="Time Jogador 1"/>
+
+    <TextView
+        android:id="@+id/textViewPlayerTwoTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPlayerTwo"
+        app:layout_constraintStart_toStartOf="@+id/textViewPlayerTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerTwo"
+        tools:text="Time Jogador 2"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/match_result"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPlayerTwo"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerOne"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMatchNumber" />
+
+    <TextView
+        android:id="@+id/textViewPenaltyResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/penalty_result"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResult"
+        app:layout_constraintStart_toStartOf="@+id/textViewResult"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult" />
+</androidx.constraintlayout.widget.ConstraintLayout>
